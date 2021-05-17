@@ -1,4 +1,5 @@
 # Prueba del formateo f-string
+# Fuente: https://realpython.com/python-f-strings/
 
 # Sintáxis
 nombre = "Julián"
@@ -17,7 +18,6 @@ print(f"{to_lowercase(nom_completo)} es divertido.") # También puedo llamar fun
 
 print(f"{nom_completo.lower()} es gracioso.") # O llamar métodos directos.
 
-
 class Comedian: # f-string en clases
     def __init__(self, first_name, last_name, age):
         self.first_name = first_name
@@ -32,3 +32,4 @@ class Comedian: # f-string en clases
 
 new_comedian = Comedian("Eric", "Idle", "74")
 print(f"{new_comedian}")
+
