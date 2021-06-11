@@ -1,5 +1,4 @@
 # Built-in Functions
-
 # Funciones nativas de Python
 
 # abs(x) -> devuelve el valor absoluto de un número (Módulo / Norma / Valor positivo)
@@ -35,3 +34,17 @@ if any(lista_vacia) == True:
     print(f'La lista {lista_vacia} tiene elemento/s.\n')
 else:
     print(f'La lista {lista_vacia} está vacia.\n')
+
+# repr(object) -> 
+
+# ascii(object) ->
+
+# bin(x) -> Convierte a un entero en binario, prefijado con "0b"
+entero = 128
+binario = bin(entero)
+print(f'{entero} en bineario es: {binario}')
+# Otra opción para convertir y sacandole el prefijo "0b":
+binario = format(entero, 'b')
+print(f'Binario sin prefijo: {binario}')
+# ó directamente imprimiendo:
+print(f'Binario sin prefijo 2: {entero:b}')
