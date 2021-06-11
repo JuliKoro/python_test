@@ -1,5 +1,6 @@
 # Built-in Functions
 # Funciones nativas de Python
+# Fuente: https://docs.python.org/3.7/library/functions.html
 
 # print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 # -> Imrime en pantalla/archivo un objeto, que puede separarse según 'sep' y una
@@ -12,7 +13,7 @@ print('¡Hola Mundo!') # Imprime un string
 entero = 128
 print('Numero entero: ', entero) # Imprime un string seguido de otro objeto int
 print('Números: ', 1, 2, 3, 4, 5, sep=';', end='\n\n') # Imprime un string, varios obejtos
-                                                    # separados por ';' y al final un salto de línea.
+                                                    # separados por ';' y al final dos saltos de línea.
 
 # abs(x) -> devuelve el valor absoluto de un número (Módulo / Norma / Valor positivo)
 num_float = -5.25
